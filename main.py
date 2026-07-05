@@ -7,7 +7,7 @@ import re
 
 server = FastMCP('Secure-SQL-Agent')
 
-DB_PATH = r"C:\Users\Rahul Pratap Singh\OneDrive\Desktop\MCP Development\Demo\company.db"
+DB_PATH = r"YOUR DATABASE PATH is here"
 
 class QueryInput(BaseModel):
     sql_query : str = Field(description='Tell me the SQL Query you want to run in the database')
